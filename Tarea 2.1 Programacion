@@ -1,0 +1,13 @@
+Algoritmo sin_titulo
+	Escribir "Ingrese el nsimo termino de la serie"
+	Leer n
+	r<-1
+	a<-1
+	m<-0
+	Mientras m<n Hacer
+		Escribir a
+		a<-(r+1)^2
+		r<-r+1
+		m<-m+1
+	Fin Mientras
+FinAlgoritmo
